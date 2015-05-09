@@ -1,0 +1,45 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mareike Dobewall</title>
+
+    <!-- Favicon -->
+    <link rel="SHORTCUT ICON" href="{% static "img/logo.ico" %}"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet"/>
+    <link href="{% static "css/bootstrap-theme.min.css" %}" rel="stylesheet"/>
+
+     <!-- Custom CSS -->
+    <link href="{% static "css/styling.css" %}" rel="stylesheet"/>
+
+    <!-- jQuery -->
+    <script src="{% static "js/jquery.js" %}"></script>
+    <script src="{% static "js/jquery.easing.min.js" %}"></script>
+    <script src="{% static "js/jquery-1.11.2.min.js" %}"></script>
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+
+     <!-- Bootstrap JS -->
+    <script src="{% static "js/bootstrap.min.js" %}"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="{% static "js/scrolling-nav.js" %}"></script>
+
+
+</head>
+
+<body style="background: #000000;">
+<div class="container">
+{% block content %}
+{%  endblock content %}
+</div>
+
+</body>
+</html>
