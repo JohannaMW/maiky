@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/
 
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "lms.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "maiky.settings")
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
