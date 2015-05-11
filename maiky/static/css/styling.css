@@ -10,5 +10,15 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:50px;
+    margin-top: 45px;
+}
+
+.menu a {
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    float: right;
+}
+
+.menu a:hover {
+    text-decoration: none;
 }
