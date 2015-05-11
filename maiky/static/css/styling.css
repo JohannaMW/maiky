@@ -4,6 +4,7 @@ html, body {
   padding: 0;
   margin: 0;
     background-color: #ffffff !important;
+    font-family: 'Dosis', sans-serif;
 }
 
 #full-screen-background-image {
@@ -13,10 +14,13 @@ html, body {
     margin-top: 45px;
 }
 
+.menu {
+    text-align: center;
+}
+
 .menu a {
     font-family: 'Dosis', sans-serif;
     color: black;
-    float: right;
 }
 
 .menu a:hover {
