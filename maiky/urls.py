@@ -6,7 +6,7 @@ from . import settings
 
 urlpatterns = patterns('',
     url(r'^$', 'portfolio.views.home', name='home'),
-    url(r'^news/schnitzlersdreams', 'portfolio.views.home', name='schnitzlerdreams'),
+    url(r'^news', 'portfolio.views.news', name='news'),
 
     url(r'^admin/', include(admin.site.urls)),
 )

@@ -32,8 +32,21 @@
 </head>
 
 <body style="background: #000000;">
+<div class="container">
+        <div>
+            <div class="row title" style="margin-top: 20px; color:black;">
+                 <a href="{% url 'home' %}">Mareike Dobewall</a>
+            </div>
+            <div class="row menu">
+                <a href="{% url 'home' %}">Home</a>
+                <a href="{% url 'home' %}">About</a>
+                <a href="{% url 'home' %}">Works</a>
+                <a href="{% url 'news' %}">News</a>
+                <a href="{% url 'home' %}">Impressum</a>
+            </div>
+        </div>
 {% block content %}
 {%  endblock content %}
-
+</div>
 </body>
 </html>
