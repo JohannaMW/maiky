@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 481px) {
+
+    /* ---------------------------------
+                Navi
+    --------------------------------- */
+    .menu {
+        height: 45px;
+    }
+
+    .menu span {
+        padding: 0 18px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+
+    .en .menu span {
+        font-size: 18px;
+    }
+}
