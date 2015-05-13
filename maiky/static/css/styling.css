@@ -48,3 +48,14 @@ html, body {
 .menu a:hover {
     text-decoration: none;
 }
+
+.text p {
+    margin-top: 30px;
+}
+
+#ad {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
