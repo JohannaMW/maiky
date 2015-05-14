@@ -6,3 +6,6 @@ def home(request):
 
 def news(request):
     return render_to_response('news.html')
+
+def about(request):
+    return render_to_response('about.html')
