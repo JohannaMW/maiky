@@ -9,3 +9,9 @@ def news(request):
 
 def about(request):
     return render_to_response('about.html')
+
+def impressum(request):
+    return render_to_response('impressum.html')
+
+def works(request):
+    return render_to_response('works.html')

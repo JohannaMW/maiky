@@ -8,6 +8,8 @@ urlpatterns = patterns('',
     url(r'^$', 'portfolio.views.home', name='home'),
     url(r'^news', 'portfolio.views.news', name='news'),
     url(r'^about', 'portfolio.views.about', name='about'),
+    url(r'^impressum', 'portfolio.views.impressum', name='impressum'),
+    url(r'^works', 'portfolio.views.works', name='works'),
 
     url(r'^admin/', include(admin.site.urls)),
 )
