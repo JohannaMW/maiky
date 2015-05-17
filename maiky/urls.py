@@ -10,7 +10,8 @@ urlpatterns = patterns('',
     url(r'^about', 'portfolio.views.about', name='about'),
     url(r'^impressum', 'portfolio.views.impressum', name='impressum'),
     url(r'^works', 'portfolio.views.works', name='works'),
-
+    url(r'^opera/street-opera-stockholm', 'portfolio.views.street_opera', name='street_opera'),
+    url(r'^opera', 'portfolio.views.opera', name='opera'),
     url(r'^admin/', include(admin.site.urls)),
 )
 

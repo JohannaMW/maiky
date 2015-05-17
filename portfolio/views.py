@@ -15,3 +15,9 @@ def impressum(request):
 
 def works(request):
     return render_to_response('works.html')
+
+def opera(request):
+    return render_to_response('opera.html')
+
+def street_opera(request):
+    return render_to_response('street_opera_stockholm.html')
