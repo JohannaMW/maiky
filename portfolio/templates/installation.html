@@ -1,0 +1,29 @@
+{% extends "base_template.html" %}
+{% block content %}
+        <div class="row" style="margin-top: 50px">
+            <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                Reflecting Light<br>
+                Norwegian Teknisk Museum in Oslo<br>
+                2014<br>
+                <a href="{% url 'reflecting_light' %}">more</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img src="/static/img/reflectinglight2.jpg" class="full-screen-background-image">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px">
+            <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                Inside<br>
+                Norwegian Theatre Academy<br>
+                2013<br>
+                <a href="{% url 'inside' %}">more</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img src="/static/img/inside3.jpg" class="full-screen-background-image">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            </div>
+        </div>
+{% endblock content %}

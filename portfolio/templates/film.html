@@ -1,0 +1,41 @@
+{% extends "base_template.html" %}
+{% block content %}
+        <div class="row" style="margin-top: 50px">
+            <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                Du fehlst<br>
+                Berlin<br>
+                2006<br>
+                <a href="{% url 'du_fehlst' %}">more</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img src="/static/img/dufehlst1.jpg" class="full-screen-background-image">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px">
+            <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                4:48<br>
+                Norwegian Theatre Academy<br>
+                2014<br>
+                <a href="{% url '448' %}">more</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img src="/static/img/448_7.jpg" class="full-screen-background-image">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px">
+            <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                Story of a Dress<br>
+                2012<br>
+                <a href="{% url 'soad' %}">more</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <img src="/static/img/soad22.jpg" class="full-screen-background-image">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            </div>
+        </div>
+{% endblock content %}
