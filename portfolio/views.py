@@ -57,3 +57,12 @@ def soad(request):
 
 def theatre(request):
     return render_to_response('theatre.html')
+
+def blindenschrift(request):
+    return render_to_response('blindenschrift.html')
+
+def dance(request):
+    return render_to_response('dance.html')
+
+def kylma(request):
+    return render_to_response('kylma.html')

@@ -32,6 +32,11 @@ html, body {
     height:100%;
 }
 
+.film img {
+    height: 240px!important;
+    width:360px!important
+}
+
 .menu {
     text-align: center;
     margin-top: 50px;

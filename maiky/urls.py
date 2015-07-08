@@ -23,7 +23,10 @@ urlpatterns = patterns('',
     url(r'^installation/reflecting-light', 'portfolio.views.reflecting_light', name='reflecting_light'),
     url(r'^installation/inside', 'portfolio.views.inside', name='inside'),
     url(r'^installation', 'portfolio.views.installation', name='installation'),
+    url(r'^theatre/blindenschrift', 'portfolio.views.blindenschrift', name='blindenschrift'),
     url(r'^theatre', 'portfolio.views.theatre', name='theatre'),
+    url(r'^dance/kylmae', 'portfolio.views.kylma', name='kylma'),
+    url(r'^dance', 'portfolio.views.dance', name='dance'),
 
     url(r'^admin/', include(admin.site.urls)),
 )
