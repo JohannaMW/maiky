@@ -66,3 +66,9 @@ def dance(request):
 
 def kylma(request):
     return render_to_response('kylma.html')
+
+def two_people(request):
+    return render_to_response('two_people.html')
+
+def ikke(request):
+    return render_to_response('ikke.html')
