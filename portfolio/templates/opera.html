@@ -2,13 +2,26 @@
 {% block content %}
         <div class="row" style="margin-top: 50px">
             <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                Schnitzler's Dreams<br>
+                Bibliotekets Aula Fredrikstad<br>
+                Premiere 20.8.2015<br>
+                <a href="{% url 'news' %}">more</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <a href="{% url 'news' %}"><img src="/static/img/maiky.jpg" class="full-screen-background-image"></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px">
+            <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
                 Great Grand Mother 2<br>
                 Accidental Festival London<br>
                 2014<br>
                 <a href="{% url 'great_grand_mother_2' %}">more</a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <img src="/static/img/GreatGrandMother2_2.jpg" class="full-screen-background-image">
+                <a href="{% url 'great_grand_mother_2' %}"><img src="/static/img/GreatGrandMother2_2.jpg" class="full-screen-background-image"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             </div>
@@ -21,7 +34,7 @@
                 <a href="{% url 'great_grand_mother' %}">more</a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <img src="/static/img/opera.jpg" class="full-screen-background-image">
+                <a href="{% url 'great_grand_mother' %}"><img src="/static/img/opera.jpg" class="full-screen-background-image"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             </div>
@@ -35,7 +48,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                 <a href="{% url 'street_opera' %}">
-                    <img src="/static/img/street_opera.jpg" class="full-screen-background-image">
+                    <a href="{% url 'street_opera' %}"><img src="/static/img/street_opera.jpg" class="full-screen-background-image"></a>
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">

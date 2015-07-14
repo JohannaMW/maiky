@@ -1,6 +1,6 @@
 {% extends "base_template.html" %}
 {% block content %}
-        <div class="row" style="margin-top: 50px">
+    <div class="row" style="margin-top: 50px" xmlns="http://www.w3.org/1999/html">
             <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
                 Du fehlst<br>
                 Berlin<br>
@@ -8,7 +8,7 @@
                 <a href="{% url 'du_fehlst' %}">more</a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <img src="/static/img/dufehlst1.jpg" class="full-screen-background-image">
+                <a href="{% url 'du_fehlst' %}"><img src="/static/img/dufehlst1.jpg" class="full-screen-background-image"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             </div>
@@ -22,7 +22,7 @@
                 <a href="{% url 'two_people' %}">more</a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <img src="/static/img/dufehlst1.jpg" class="full-screen-background-image">
+                <a href="{% url 'two_people' %}"></a><img src="/static/img/hoppe/hopper2.png" class="full-screen-background-image"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             </div>
@@ -35,7 +35,7 @@
                 <a href="{% url 'ikke' %}">more</a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <img src="/static/img/dufehlst1.jpg" class="full-screen-background-image">
+                <a href="{% url 'ikke' %}"><img src="/static/img/ikke/ikke14.jpg" class="full-screen-background-image"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             </div>
@@ -50,7 +50,7 @@
                 <a href="{% url 'soad' %}">more</a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <img src="/static/img/soad22.jpg" class="full-screen-background-image">
+                <a href="{% url 'soad' %}"><img src="/static/img/soad22.jpg" class="full-screen-background-image"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             </div>
