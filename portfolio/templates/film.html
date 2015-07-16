@@ -1,28 +1,14 @@
 {% extends "base_template.html" %}
 {% block content %}
-    <div class="row" style="margin-top: 50px" xmlns="http://www.w3.org/1999/html">
-            <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                Du fehlst<br>
-                Berlin<br>
-                2006<br>
-                <a href="{% url 'du_fehlst' %}">more</a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <a href="{% url 'du_fehlst' %}"><img src="/static/img/dufehlst1.jpg" class="full-screen-background-image"></a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            </div>
-        </div>
 
-        <div class="row" style="margin-top: 50px">
+    <div class="row" style="margin-top: 50px">
             <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                Two People<br>
-                Berlin<br>
-                2008<br>
-                <a href="{% url 'two_people' %}">more</a>
+                Story of a Dress<br>
+                2012<br>
+                <a href="{% url 'soad' %}">more</a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <a href="{% url 'two_people' %}"></a><img src="/static/img/hoppe/hopper2.png" class="full-screen-background-image"></a>
+                <a href="{% url 'soad' %}"><img src="/static/img/soad22.jpg" class="full-screen-background-image"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             </div>
@@ -41,18 +27,35 @@
             </div>
         </div>
 
-
-
-        <div class="row" style="margin-top: 50px">
+    <div class="row" style="margin-top: 50px">
             <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                Story of a Dress<br>
-                2012<br>
-                <a href="{% url 'soad' %}">more</a>
+                Two People<br>
+                Berlin<br>
+                2008<br>
+                <a href="{% url 'two_people' %}">more</a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                <a href="{% url 'soad' %}"><img src="/static/img/soad22.jpg" class="full-screen-background-image"></a>
+                <a href="{% url 'two_people' %}"></a><img src="/static/img/hoppe/hopper2.png" class="full-screen-background-image"></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
             </div>
         </div>
+
+
+    <div class="row" style="margin-top: 50px" xmlns="http://www.w3.org/1999/html">
+            <div class="description col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                Du fehlst<br>
+                Berlin<br>
+                2006<br>
+                <a href="{% url 'du_fehlst' %}">more</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <a href="{% url 'du_fehlst' %}"><img src="/static/img/dufehlst1.jpg" class="full-screen-background-image"></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            </div>
+        </div>
+
+
+
 {% endblock content %}
