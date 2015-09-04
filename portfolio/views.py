@@ -72,3 +72,6 @@ def two_people(request):
 
 def ikke(request):
     return render_to_response('ikke.html')
+
+def sd(request):
+    return render_to_response('schnitzlers_dreams.html')
