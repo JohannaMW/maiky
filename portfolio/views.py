@@ -75,3 +75,9 @@ def ikke(request):
 
 def sd(request):
     return render_to_response('schnitzlers_dreams.html')
+
+def smallhouse(request):
+    return render_to_response('smallhouse.html')
+
+def women(request):
+    return render_to_response('womenwithunhealthy.html')
